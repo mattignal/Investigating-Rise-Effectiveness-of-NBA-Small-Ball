@@ -1,7 +1,7 @@
 # Charting the Rise of Small-Ball in NBA
 Clusters NBA Player-Seasons &amp; Analyzes Lineup Types
 
-[Giannis](https://github.com/mattignal/SmallBallNBA/blob/master/giannis.jpg)
+![Giannis](https://github.com/mattignal/SmallBallNBA/blob/master/giannis.jpg)
 
 ![results](https://github.com/mattignal/SmallBallNBA/blob/master/GrowthofSmall-ball.png)
 
