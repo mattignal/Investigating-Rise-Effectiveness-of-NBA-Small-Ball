@@ -20,6 +20,8 @@ While head-to-head comparisons are not available to my knowledge, there are sign
 [NBA Lineup Types](http://rpubs.com/matthewignal/300987) <- Click for Interactive Plot
 ![NBA Lineup Types](https://github.com/mattignal/SmallBallNBA/blob/master/LineupTypes.png)
 
+Whenever we reduce to the most used lineups (such as in the NBA.com data, shown below) or by using only lineups with the BPM leader, small-ball is superior.
+
 ![SmallvsBig](https://github.com/mattignal/SmallBallNBA/blob/master/smallvsbig.png)
 
 ### Install
