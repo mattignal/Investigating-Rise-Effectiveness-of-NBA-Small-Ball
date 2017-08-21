@@ -33,7 +33,7 @@ df2 <- read.csv('AggregatedPercentages.csv')
 ```
 
 ```{r}
-f <- ggplot(df, aes(MP, Net_Rating, color = Basic_Type)) + xlim(30, 1500) + ylim(-30, 45) +
+f <- ggplot(df, aes(MP, Net_Rating, color = Basic_Type)) + xlim(50, 1500) + ylim(-30, 45) +
   geom_point(aes(stat = Season, stat2 = Team, stat3 = PLAYER_NAMES), size = 0.8) +
   labs(title = "Lineup Types", x = "Minutes Played", y = "Net Rating")
 
