@@ -3,7 +3,7 @@ Clusters NBA Player-Seasons since 2013-2014 &amp; Analyzes Lineup Types
 
 ### Methodology
 
-With NBA tracking data, I was able to use Sci-Kit Learn's linear discriminant analysis to reduce the data into two dimensions. From there, I used spectral clustering to determine offensive positions. Positional separation (via the silhouette coefficient) was by far the highest with 3 clusters, and this strongly corresponded to a ball-handlers/wings/bigs model. 
+With NBA tracking data, I was able to use Sci-Kit Learn's linear discriminant analysis to reduce the data into two dimensions. From there, I used spectral clustering to determine offensive positions. Positional separation (via the silhouette coefficient) was by far the highest with 3 clusters, and this strongly corresponded to a ball-handlers/wings/bigs model. Defensive positions were broadly similar, and I use guard/forward/interior terminology.
 
 ![Giannis](https://github.com/mattignal/SmallBallNBA/blob/master/giannis.jpg)
 
@@ -11,16 +11,16 @@ With NBA tracking data, I was able to use Sci-Kit Learn's linear discriminant an
 
 From here, I used lineup data from the NBA to look at the different types of lineups. I used a simple definition for distinguishing between traditional and small-ball lineups: If a lineup had two or more bigs, it was "traditional". If there was one or fewer bigs, it is a "small-ball" lineup.
 
-![results](https://github.com/mattignal/SmallBallNBA/blob/master/GrowthofSmall-ball.png)
+![GrowthOfSmallBall](https://github.com/mattignal/SmallBallNBA/blob/master/GrowthofSmall-ball.png)
 
 ### Small vs. Traditional
 
-While head-to-head comparisons are not available to my knowledge, there are signs that small-ball is superior.
+While head-to-head comparisons are not available to my knowledge, there are some signs that suggest small-ball lineups tend to "beat" traditional lineups. 1) The fact that it is fast-growing, and coaches use it more in the playoffs, 2) Many of the best lineups are small (continued)
 
 [NBA Lineup Types](http://rpubs.com/matthewignal/300987) <- Click for Interactive Plot
 ![NBA Lineup Types](https://github.com/mattignal/SmallBallNBA/blob/master/LineupTypes.png)
 
-Whenever we reduce to the most used lineups (such as in the NBA.com data, shown below) or by using only lineups with the BPM leader, small-ball is superior.
+3) Whenever we reduce the overall dataset to the most used lineups (such as in the NBA.com data, shown below) or by using only lineups with the BPM leader, small-ball lineups slightly outclass traditional ones.
 
 ![SmallvsBig](https://github.com/mattignal/SmallBallNBA/blob/master/smallvsbig.png)
 
