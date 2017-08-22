@@ -15,12 +15,12 @@ From here, I used lineup data from the NBA to look at the different types of lin
 
 ### Small vs. Traditional
 
-While head-to-head comparisons are not available to my knowledge, there are some signs that suggest small-ball lineups tend to "beat" traditional lineups. 1) The fact that it is fast-growing, and coaches use it more in the playoffs, 2) Many of the best lineups are small (continued)
+While head-to-head comparisons are not available to my knowledge, there are some signs that suggest small-ball lineups tend to "beat" traditional lineups in the modern NBA: A) The fact that it is fast-growing, and coaches use it more in the playoffs, B) Many of the best lineups are small (continued)
 
 [NBA Lineup Types](http://rpubs.com/matthewignal/300987) <- Click for Interactive Plot
 ![NBA Lineup Types](https://github.com/mattignal/SmallBallNBA/blob/master/LineupTypes.png)
 
-3) Whenever we reduce the overall dataset to the most used lineups (such as in the NBA.com data, shown below) or by using only lineups with the BPM leader, small-ball lineups slightly outclass traditional ones.
+C) Whenever we reduce the overall dataset to the most used lineups (such as in the NBA.com data, shown below) or by using only lineups with the BPM leader, small-ball lineups slightly outclass traditional ones.
 
 ![SmallvsBig](https://github.com/mattignal/SmallBallNBA/blob/master/smallvsbig.png)
 
