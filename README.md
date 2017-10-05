@@ -15,7 +15,7 @@ From here, I used lineup data from the NBA to look at the different types of lin
 
 ### Small vs. Traditional
 
-While head-to-head comparisons are not available to my knowledge, there are some signs that suggest small-ball lineups tend to "beat" traditional lineups in the modern NBA: A) The fact that it is fast-growing, and coaches use it more in the playoffs, B) Many of the best lineups are small (continued)
+There are some signs that suggest small-ball lineups tend to "beat" traditional lineups in the modern NBA: A) The fact that it is fast-growing, and coaches use it more in the playoffs, B) Many of the best lineups are small (continued)
 
 [NBA Lineup Types](http://rpubs.com/matthewignal/300987) <- Click for Interactive Plot
 ![NBA Lineup Types](https://github.com/mattignal/SmallBallNBA/blob/master/LineupTypes.png)
@@ -23,6 +23,10 @@ While head-to-head comparisons are not available to my knowledge, there are some
 C) Whenever we reduce the overall dataset to the most used lineups (such as in the NBA.com data, shown below) or by using only lineups with the BPM leader, small-ball lineups slightly outclass traditional ones.
 
 ![SmallvsBig](https://github.com/mattignal/SmallBallNBA/blob/master/smallvsbig.png)
+
+D) Small-ball lineups outperformed traditional lineups when matched up head-to-head in the regular season. However, the trend reversed in the playoffs, albeit on a much smaller sample size.
+
+![HeadtoHead](https://github.com/mattignal/SmallBallNBA/blob/master/Possession Weighted Net Ratings.png)
 
 ### Install
 
@@ -32,6 +36,7 @@ This project requires **Python 2.7** and the following Python libraries installe
 - [Pandas](http://pandas.pydata.org)
 - [matplotlib](http://matplotlib.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
+- [ggplot](http://ggplot.yhathq.com/)
 
 There is also plot generation using [RStudio](https://www.rstudio.com/).
 
