@@ -1,4 +1,4 @@
-# Charting the Rise of Small-Ball in NBA
+# Investigating the Rise and Effectiveness of Small-Ball in NBA
 Clusters NBA Player-Seasons since 2013-2014 &amp; Analyzes Lineup Types
 
 ### Methodology
@@ -26,7 +26,7 @@ C) Whenever we reduce the overall dataset to the most used lineups (such as in t
 
 D) Small-ball lineups outperformed traditional lineups when matched up head-to-head in the regular season. However, the trend reversed in the playoffs, albeit on a much smaller sample size.
 
-![HeadtoHead](https://github.com/mattignal/SmallBallNBA/blob/master/Possession Weighted Net Ratings.png)
+![HeadtoHead](https://github.com/mattignal/Charting-Rise-of-NBA-Small-Ball/blob/master/Possession%20Weighted%20Net%20Ratings.png)
 
 ### Install
 
